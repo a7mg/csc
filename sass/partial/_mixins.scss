@@ -1,0 +1,16 @@
+/*
+ * _mixins.scss
+ */
+@mixin rounded($radius: 50%) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transition($time: 0.2) {
+	-webkit-transition: all ease #{$time}s;
+	-moz-transition: all ease #{$time}s;
+	-ms-transition: all ease #{$time}s;
+	transition: all ease #{$time}s;
+}
